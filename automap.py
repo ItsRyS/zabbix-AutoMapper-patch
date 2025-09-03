@@ -158,8 +158,8 @@ def main(
     )
 
     logger.debug(f"{automaper.graph.graph.vs.attribute_names()}")
-    logger.debug(f"{automaper.graph.graph.vs["x"]}")
-    logger.debug(f"{automaper.graph.graph.vs["y"]}")
+    logger.debug(f"{automaper.graph.graph.vs['x']}")
+    logger.debug(f"{automaper.graph.graph.vs['y']}")
     automaper.update_zabbix_map_from_graph()
 
 

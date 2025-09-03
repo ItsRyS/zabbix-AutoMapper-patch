@@ -48,7 +48,7 @@ def create_host(host_name, type="server", link="", host_group="",ip="",link_labe
             {
                 "tag": "am.link.draw_type",
                 # "value": str(random.randint(1, 4))
-                "value": "1"
+                "value": "0"# 1 not exist, 0 line, 2 bold line, 3 dotted line, 4 dashed line
             },
             {
                 "tag": "am.link.label",
